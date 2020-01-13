@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Start Navbar -->
+    <nav class="skin-background">
+        <ul>
+            <li data-scroll="home">Home</li>
+            <li data-scroll="our-works">Our Works</li>
+            <li data-scroll="services">Services</li>
+            <li data-scroll="portfolio">Portfolio</li>
+            <li data-scroll="solutions">Solutions</li>
+            <li data-scroll="contact-us">Contact Us</li>
+        </ul>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Side Menu -->
+
+    <div class="menu">
+        <i class="fas fa-cog"></i>
+        <h1>Change Colors</h1>
+        <ul class="change-colors">
+            <li data-color="yellowgreen"></li>
+            <li data-color="blue"></li>
+            <li data-color="purple"></li>
+            <li data-color="yellow"></li>
+        </ul>
+        <p>Testing The Color</p>
+        <h3>Test 2</h3>
+        <p>Testing The Color</p>
+    </div>
+
+    <!-- End Side Menu -->
+
+    <!-- Start Sections -->
+    <section id="home" class="home">
+        <h1 class="skin-color">Home</h1>
+        <div class="error-message">
+            This Is Error Message This Is Error Message
+        </div>
+        <button class="pop-btn" data-popup="popup-1st">first Popup</button>
+        <button class="pop-btn" data-popup="popup-2nd">Second Popup</button>
+        <div class="buttons-effect">
+            <button class='btn-from-left'>
+                <span>Download Left</span>
+            </button>
+            <button class='btn-from-top'>
+                <span>Download Top</span>
+            </button>
+            <button class='border-left'>
+                <span>Border Left</span>
+            </button>
+            <button class='border-bottom'>
+                <span>Border Bottom</span>
+            </button>
+            <div class="bounces">
+            <button class='bounce-btn'>
+                <span>Bounce Bottom 01</span>
+            </button>
+            <button class='bounce-btn'>
+                <span>Bounce Bottom 02</span>
+            </button>
+            <button class='bounce-btn'>
+                <span>Bounce Bottom 03</span>
+            </button>
+            <button class='bounce-btn'>
+                <span>Bounce Bottom 04</span>
+            </button>
+            </div>
+        </div>
+        <!-- Start Progress -->
+        <div class="progress prg-yellowgreen">
+            <span data-progress="45"></span>
+        </div>
+        <div class="progress prg-blue">
+            <span data-progress="25"></span>
+        </div>
+        <div class="progress prg-purple">
+            <span data-progress="58"></span>
+        </div>
+        <div class="progress prg-yellow">
+            <span data-progress="77"></span>
+        </div>
+        <!-- End Progress -->
+
+        <!-- Start Gallery -->
+
+        <div class="gallery">
+            <div class="main-img">
+                <div><i class="fas fa-angle-double-left"></i></div>
+                <div><i class="fas fa-angle-double-right"></i></div>
+                <img src="media/img01.jpg" alt="main">
+            </div>
+            <div class="thumbnails">
+                <img class="custom" src="media/04.jpg" alt="01">
+                <img src="media/01.jpg" alt="02">
+                <img src="media/02.jpg" alt="03">
+                <img src="media/03.jpg" alt="04">
+                <img src="media/04.jpg" alt="05">
+                <img src="media/05.jpg" alt="04">
+                <img src="media/03.jpg" alt="05">
+            </div>
+        </div>
+
+        <!-- End Gallery -->
+
+    <!-- Start Toggle Product -->
+
+    <div class="products">
+        <div class="product">
+            <h2>Product One</h2>
+            <div class="date">Friday 4 October</div>
+            <img src="media/01.jpg" alt="product">
+            <i class="fas fa-plus"></i>
+            <p>This IS Discription</p>
+        </div>
+        <div class="product">
+            <h2>Product Tow</h2>
+            <div class="date">Friday 4 October</div>
+            <img src="media/05.jpg" alt="product">
+            <i class="fas fa-plus"></i>
+            <p>This IS Discription</p>
+        </div>
+    </div>
+    <!-- End Toggle Ptoduct -->
+
+    <!-- Start Grid & List View -->
+
+    <div class="items list-view">
+        <div class="icons">
+            <i class="fas fa-list fa-fw fa-2x selected" data-class="list-view"></i>
+            <i class="fas fa-th-large fa-fw fa-2x" data-class="grid-view"></i>
+        </div>
+        <div class="item">
+            <h2>item One</h2>
+            <div class="date">Friday 4 October</div>
+            <img src="media/03.jpg" alt="product">
+            <i class="fas fa-plus"></i>
+            <p>This IS Discription</p>
+        </div>
+        <div class="item">
+            <h2>item Tow</h2>
+            <div class="date">Friday 4 October</div>
+            <img src="media/05.jpg" alt="product">
+            <i class="fas fa-plus"></i>
+            <p>This IS Discription</p>
+        </div>
+    </div>
+
+    <!-- Start Form Hide Show Placehoolder -->
+
+    <div class="our-form">
+        <h2>Contact Us</h2>
+        <form action="">
+            <div>
+                <input class="detect-unicode auto-direction" type="text" placeholder="Your Name" name="Name" required="required">
+                <span class="err-msg">Pleas Fill This Field</span>
+                <!-- <span>إملىء الحقل من فضلك</span> -->
+                <div class="unicode"></div>
+            </div>
+            <div>
+                <input class="auto-direction" type="email" placeholder="Your Email" name="Email" required="required">
+                <span class="err-msg">Pleas Fill This Field</span>
+                <!-- <span>إملىء الحقل من فضلك</span> -->
+            </div>
+            <div>
+                <input class="auto-direction"  type="password" placeholder="Your Password" name="Password" required="required">
+                <span class="err-msg">Pleas Fill This Field</span>
+                <!-- <span>إملىء الحقل من فضلك</span> -->
+            </div>
+            <div>
+                <textarea class="auto-direction"  name="Message" id="" cols="30" rows="10" placeholder="Your Message" required="required"></textarea>
+                <span class="err-msg">Pleas Fill This Field</span>
+                <!-- <span>إملىء الحقل من فضلك</span> -->
+            </div>
+            <div>
+                <input class=add-tags  type="text" placeholder="pleas Type Value Then Press [Enter]">
+                <div class="tags"></div>
+            </div>
+            <input type="file" name="file" id="file">
+            <div>
+                <input type="button" value="send">
+            </div>
+            
+        </form>
+    </div>
+    <!-- End Form Hide Show Placehoolder -->
+
+    <!-- Start Trimmed Text -->
+
+    <div class="trim">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur,
+                 nulla? Quidem vero qui voluptas ducimus at ipsum natus minima non nemo ipsam,
+                  quibusdam sed error sunt culpa, maxime sapiente exercitationem.
+            </p>
+            <!-- <span class="">More</span> -->
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur,
+                    nulla? Quidem vero qui voluptas ducimus at ipsum natus minima non nemo ipsam,
+                     quibusdam sed error sunt culpa, maxime sapiente exercitationem.
+               </p>
+               <!-- <span>More</span> -->
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur,
+                    nulla? Quidem vero qui voluptas ducimus at ipsum natus minima non nemo ipsam,
+                     quibusdam sed error sunt culpa, maxime sapiente exercitationem.
+               </p>
+               <!-- <span>More</span> -->
+        </div>
+
+    <!-- End Trimmed Text -->
+
+    <!-- Start Creat Element With  Same Height -->
+
+        <div class="container">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                     Nam dolorum labore cum deserunt, corrupti ducimus, explicabo
+                      iure aliquam delectus, dicta dolores libero </p>
+            </div>
+            <div>
+                <p>Dicta dolore cumque ullam qui, repellendus corporis repellat
+                     aperiam consectetur sunt suscipit alias ratione vero,
+                      reiciendis quo non! Quasi reprehenderit repudiandae
+                       laudantium? Iure amet fuga tempora quisquam sunt mollitia odio.</p>
+            </div>
+            <div>
+                <p>Nostrum, accusantium voluptas, quis dolore temporibus aspernatur nulla
+                     in aut praesentium molestias minus.</p>
+            </div>
+        </div>
+
+    <!-- End Creat Element With Same Height -->
+
+    <div class="cards">
+        <h1>Memories</h1>
+        <div class="card card-one"><img src="media/memories00.jpg" alt=""></div>
+        <div class="card card-tow"><img src="media/memories01.jpg" alt=""></div>
+        <div class="card card-three"><img src="media/memories02.jpg" alt=""></div>
+        <div class="card card-four"><img src="media/memories03.jpg" alt=""></div>
+        <div class="card card-five"><img src="media/memories04.jpg" alt=""></div>
+        <div class="card card-six"><img src="media/memories05.jpg" alt=""></div>
+        <div class="card card-seven"><img src="media/memories06.jpg" alt=""></div>
+        <div class="card card-eight"><img src="media/memories07.jpg" alt=""></div>
+    </div>
+
+    <!-- End Creat Element With Same Height -->
+
+    <!-- Start Blink Warnning -->
+
+    <div class="container-blink">
+        <div class="blink-warnning">Warning</div>
+    </div>
+
+    <!-- start To Do List -->
+
+    <div class="container-to-do">
+        <h2>To-Do</h2>
+        <form action="" method="GET">
+                <input  type="text" placeholder="Add New Task" name="tasks">
+        </form>
+        <div class="to-do">
+            <ul class="tasks"></ul>
+            <ul class="details-tasks">
+            </ul>
+        </div>
+    </div>
+
+    <!-- Start Typer -->
+    <div class="container-typer">
+        <div class="typer" data-text="I Am Amir, Web Developer"></div>
+    </div>
+
+    <!-- Start Calculate Item Prices -->
+
+    <div class="container-calc-items">
+        <ul class="name">
+            <li>Name</li>
+            <li>Date One</li>
+            <li>Date Tow</li>
+            <li>Date Three</li>
+            <li>Date Four</li>
+            <li>Date Five</li>
+        </ul>
+        <ul class="value">
+            <li>Value</li>
+            <li>10 Items</li>
+            <li>40 Items</li>
+            <li>2 Items</li>
+            <li>4 Items</li>
+            <li>128 Items</li>
+        </ul>
+        <ul class="prices">
+            <li>Price</li>
+            <li class="price">100</li>
+            <li class="price">400</li>
+            <li class="price">20</li>
+            <li class="price">40</li>
+            <li class="price">1200</li>
+        </ul>
+        <span>Total</span>
+        <span>=</span>
+    </div>
+
+
+    <!-- Start Notes -->
+
+    <div class="container-notes">
+        <div class="notes">
+            <h3>Today Notes</h3>
+            <ul>
+                <li class="note-active">This Is Notes Number One</li>
+                <li>This Is Notes Number Tow</li>
+                <li>This Is Notes Number Three</li>
+                <li>This Is Notes Number Four</li>
+                <li>This Is Notes Number Five</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Start Dynamic Tabs -->
+
+    <div class="container-tabs">
+        <div class="switch-tabs">Switch Tabs</div>
+        <div class="dynamic-tabs">
+            <ul>
+                <li data-content-list=".content-one" class="active-tab">One</li>
+                <li data-content-list=".content-tow">Tow</li>
+                <li data-content-list=".content-three">Three</li>
+                <li data-content-list=".content-four">Four</li>
+                <li data-content-list=".content-five">Five</li>
+            </ul>
+            <div class="content-list">
+                <div class="content-one">This Is Content One</div>
+                <div class="content-tow">This Is Content Tow</div>
+                <div class="content-three">This Is Content Three</div>
+                <div class="content-four">This Is Content Four</div>
+                <div class="content-five">This Is Content Five</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-email-suggest">
+        <form action="">
+            <input 
+                type="email"
+                placeholder="Email"
+                class="email-suggest"
+                autocomplete="off"
+                name="email">
+            <!-- <ul class="suggest">
+                <li>@Gmail</li>
+                <li>@Hotmail</li>
+                <li>@Yahoo</li>
+                <li>@test</li>
+            </ul> -->
+        </form>
+    </div>
+
+
+
+    </section>
+    <section class="our-works">
+        <h1>Our Works</h1>
+    </section>
+    <section class="services">
+        <h1>Services</h1>
+    </section>
+    <section class="portfolio">
+        <h1>Portfolio</h1>
+    </section>
+    <section class="solutions">
+        <h1>Solutions</h1>
+    </section>
+    <section class="contact-us">
+        <h1>Contact Us</h1>
+    </section>
+    <!-- End Sections  -->
+
+    <!-- Start Go To Tp Button -->
+    <div class="go-to-top skin-background">
+        <i class="fas fa-angle-double-up"></i>
+    </div>
+
+    <!-- End Go To Top Button -->
+
+    <!-- Start Popup -->
+
+    <div class="popup popup-1st" data-popup="popup-1st">
+        <div class="popup-inner">
+            <h2>Popup 1st</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum alias non laboriosam iusto ratione quos eligendi dolore optio earum, unde deleniti mollitia perferendis blanditiis culpa quam tempora explicabo neque tempore.</p>
+            <button class='close-popup'>Close</button>
+        </div>
+    </div>
+
+    <div class="popup popup-2nd" data-popup="popup-2nd">
+        <div class="popup-inner">
+            <h2>Popup 2nd</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum alias non laboriosam iusto ratione quos eligendi dolore optio earum, unde deleniti mollitia perferendis blanditiis culpa quam tempora explicabo neque tempore.</p>
+            <button class='close-popup'>Close</button>
+        </div>
+    </div>
+    <!-- End Popup -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/plugin.js"></script>
+</body>
+
+</html>
